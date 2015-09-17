@@ -1,0 +1,111 @@
+An investigation on the incompetence of Qlikview Business Intelligence users and solutions to improve usability
+
+
+Student Number:	211109185
+Student Name:	Nicholas Wessels
+Mentor: 	Boniface Kabaso
+Date: 	        18th June 2015
+
+Background of the study 
+
+I am a BI developer for many of South Africa’s biggest retailing chain stores with 2 years working experience using the tool Qlikview, one of the leading BI tools available. One of the biggest challenges with getting the full benefits of Qlikview is the user’s incompetence to use the tool efficiently and effectively as well as us developers lacking the business knowledge that the users have, and develop apps to provide the users exactly what they desire with minimum discomfort from both parties. This disconnect in knowledge between the developers and users creates a lot of unnecessary animosity between the 2 parties.This project will focus on the users incompetence as there are a lot more users than developers. These users are spread out over all levels of management such as planners, business analysts, general managers, buyers, and senior managers, it is crucial that they make the right business decisions and interpret their reports and tools correctly to make the most of their businesses. Qlikview is a leading business intelligence software package that allows developers to import data from many different sources to create visualization based dashboards for reporting and analysis. These apps are then made available to the users online on a web platform called the Qlikview AccessPoint, so that the users can access these apps anywhere, on any device. If business could make better decisions they stand a much greater chance of survival and success. The use of Qlikview in South Africa is growing exponentially with businesses realizing the benefits and conveniences it hones, but the tool is only as effective as the business users that use it.  This project hopes to bridge the gap of incompetence by developing a Qlikview app that teaches the user how to use Qlikview properly from the basics to its more advance features. Any Business that utilizes Qlikview can then take this app and make it available to their users on their AccessPoint, where the users will be made to go through the app once to learn all Qlikview’s capabilities and go back to the app whenever they need to check something again.
+
+
+Research Problem
+
+With the rapid expansion of Big Data and people becoming aware of its importance and the wisdom it can hold, BI is an exponentially growing industry in South Africa and around the world. Yet we are struggling to use these BI tools such as QlikView to their full advantage because of the divide in knowledge that the developers and users possess. The business users lack the knowledge in how to use these BI tools competently, which inevitably diminishes BI’s efficiency and effectiveness.
+
+Research Questions
+
+1.	What is the current state and ideal state with usability of Qlikview apps and will the introduction of a “how to use” application reach that ideal state?
+1.1	What are some of the main reasons why this knowledge disconnect exists between developers and users?
+1.2	What are the main difficulties the users experience when using Qlikview                                        apps?
+
+
+Aim
+
+To train Qlikview users in a simple, fun and easy to learn manner with the very tool they are facing issues with by implementing an in the middle application to teach them how to use their apps. If the app improves the usability the users will be able to be more productive and make more effective and efficient business decisions.
+
+
+Goals & Objectives
+
+•	Conduct literature review and gather established knowledge from the literature.
+•	Meet with colleagues and develop prototype questionnaires to be tested on colleagues for value of results.
+•	Finalise questionnaire and survey South African Qlikview consultants and international Qlik community.
+•	Measure the current state of usability of our apps.
+•	Develop the “How to use Qlikview” app according to data gathered from surveying.
+•	Implement “How to use Qlikview” app on our system and make available to the users.
+•	After 2 weeks of having the app made available to the users, I’ll measure the usability of our apps once again and compare the results with the initial measurement of usability to see whether the implementation of the solution app will have made an improvement on the usability or not.  
+
+
+Literature Review 
+
+Friction between users and developers due to BI’s importance
+The undesired animosity between the developers and users are mentioned by W Pinnington et al. (2007) “if we consider business intelligence, enterprise systems, ‘users’ and ‘developers’, we begin to see potential tensions particularly as related to the potentialities for managing the fixed/fluid nature of business intelligence requirements and the relationship of this to so called user and developer roles.” As anyone working in the software industry will know, tensions between users/clients and developers are apparent in almost all fields of software development. 
+
+With BI however there is added stress on the correctness of apps and the precision of reporting on these apps as they often lead to incredibly vital and costly decisions. W Pinnington et al. (2007) also states that why such a problem exists is because “user competence is multi-faceted; in that it relates to familiarity with end user computing applications that can be achieved via training and skills acquisition and the notion of finesse, something that comes from experience.” As well as RJ Podeschi (2014) stating that “it’s hard to find a good mix of technical and business skills, too often a person is skewed too far one way or the other.” And B Evelson (2010) found that half of BI stakeholders they surveyed did not feel their BI applications are agile and flexible enough. 
+
+Usability of BI systems
+When it comes to usability of these BI apps, Jooste C et al. (2014) describes usability as “ensuring that interactive products are easy to learn, effective to use and enjoyable from the user’s perspective.” So it is important that developers meet these requirements to minimise potential difficulties the user may experience. A common complaint often received from users on BI apps is that the apps change way too fast for IT to keep up. As Evelson, B (2010) perfectly described a scenario between IT and users like “Can you tell me what types of information you are looking to analyze?” is IT’s typical question to the business. “I may want everything, show me what you have available and I’ll pick and choose,” is often the typical business user response. “We can’t just show you everything, it’ll take forever, let’s try to prioritize. . . ” — and so goes an often endless and vicious circle of BI requirements definition leading to requirements analysis paralysis. 
+
+Williams, S et al. (2004) did a study on a manufacturing company they kept anonymous where the culture of the company was reluctant to adopt new BI technologies and that “The sales force was compromised mainly of older technophobes who made their living by being knowledgeable about the products and good nurturing relationships between buyers”. I have seen this in my own personal work experience where users are not willing to accept something new that contradicts their traditional processes, even if for example they are using a report for a while that has proved to be wrong by IT. It will take quite some convincing to prove the incorrectness of the original report and get them to adopt a new solution.
+
+What is suggested to reduce usability and tension issues
+To see what we can do to minimise these issues Williams, S et al. (2004) states that to maximise BI’s business value, “an effective partnership between business and IT, with continues business involvement be essential”. They fail to mention what specific involvement is required as it can change from business to business. Jooste, C et al. (2014) mentioned that they couldn’t find specific BI usability guidelines in the research literature and that when analysing usability it is better to observe the user’s behaviour rather than listen what they say they do. So they decided to formulate some usability criteria and stated “For optimal adoption, the user needs to be able to interact with the application in such a way that the business decision is not inhibited by an overly complex user interface.” Among some of their recommended criteria included:
+•	Visibility 
+•	Flexibility 
+•	Learnability
+•	Error control and help 
+•	Operability. 
+
+It is important for IT to take these concerns into consideration but as many companies have so many existing systems and apps that may not meet these criteria, redesigning them all could potentially be incredibly time consuming and expensive. As Kobielus, J (2009) said, “BI reports, dashboards, and other applications are often so complex and convoluted that only experienced developers should design or maintain them.” So if redesigning old BI systems is too expensive we can help the users learn to use the existing systems more efficiently and effectively. Then implement the suggested BI design guidelines in future systems and applications.
+
+
+Research Methodology 
+
+The research will focus on the causal question of “what are the main causes of the knowledge disconnect?”, and the predictive question of “what will the effect be after the introduction of the artefact on usability?” 
+
+The research methodology will take a mixed approach but primarily interpretivism with qualitative data analytical methods, open understanding and an inductive form of reasoning. 
+
+The units of analysis will be BI, and the units of observation will be focussed on Qlikview BI software, the Qilkview users and developers of my company, the South African Qlikview consultants and the online Qlik community which is made up of developers from all around the world and can be found on https://community.qlik.com/welcome 
+
+The data collection and sampling will be primary data, collected from non-probability convenience samples for the consultants, colleagues and users and probability simple random sampling for data collected from the Qlik community.
+
+The analysis and Interpretation techniques will be content analysis to contextualise my findings of opinions, behaviours and measurements. 
+
+Follow the research plan below for motive behind this approach and techniques:
+
+
+Step 1:
+Conduct literature review
+
+Step 2: 
+After gathering established knowledge in the literature review I will begin my own inductive research. On the 24th of June 2015 I will be holding a meeting with my manager and colleagues to discuss my findings, aims and objectives of my project. This meeting will be a knowledge sharing session where I will gather qualitative data and develop questions for my prototype interviews and questionnaires.  
+
+Step 3:
+Once I have formulated a prototype questionnaire I will give it out to my colleagues to answer and review the results to see the value of the data. If it data gathered from the first sample in the prototype questionnaire is valuable I will then finalise the questionnaire and pass it over to my second research sample which will be the consultants from Qlikview South Africa and the international Qlik Community. If the prototype questionnaire retrieves invaluable data; I will have to redesign the questionnaire until the data retrieved is valuable.
+
+Step 4:
+The next step will be measuring the current state of usability of our apps. This will also be done in a qualitative approach by interviewing several of our users on their experience with the apps as well as observing how they use the apps. I will also hand one of our apps to several developers and users that have no Qlikview experience and observe their use of the app. 
+
+Step 5:
+During the measuring of the current state of usability, the development of the “How to use” app will commence. Once the app has been completed and, reviewed and quality assured by professional Qlikview developers, I will make the app available on the Qlikview Access Point and notify the users on its availability.
+
+Step 6:
+After 2 weeks of the “How to use” app available to the users I will repeat step 4 and get the new state of usability. 
+
+Step 7:
+After analysing the finding I will be able to see whether the introduction of the “App in the Middle” reached the ideal state of usability, improved the state of usability at all or kept the state the same as it was. 
+
+
+References 
+Wixom, B; Ariyachandra, T; Goul, M; Gray, P; Kulkarni, U; and Phillips-Wren, G (2011) "The CurrentState of Business Intelligence in Academia," Communications of the Association for Information Systems: Vol. 29, Article 16.Available at: http://aisel.aisnet.org/cais/vol29/iss1/16
+Arvidsson, P; and Pettersson, D (2012) “Usage of Business Intelligence - Testing the Technology Acceptance Model on a BI System”.
+Pinninton, W; Light, B; Ferneley, E (2007) “Too Much of a Good Thing? A Field Study of Challenges in Business Intelligence Enabled Enterprise System Environments”. ECIS 2007 Proceedings. Paper 16.
+Şerbănescu, L; Necşulescu, C (2012) “Organizational Optimization of a Company Through the Implementation of Business Intelligence Solutions”. Vol 8, no 5.
+Kobielus, J (2009) “Mighty Mashups: Do-It-Yourself Business Intelligence For The New Economy”. Forrester.
+Podeschi, RJ (2014) “Experiential Learning using QlikView Business Intelligence Software”. Vol 31. No 3004.
+Jooste, C; Van Biljon, J; Mentz, J (2014) “Usability evaluation for Business Intelligence applications: A user support perspective”.
+Evelson, B (2010) “Agile BI Out Of The Box”. Forrester.
+Williams, S; Williams, N (2004) ”Assessing BI Readiness The Key to BI ROI”. Vol 9. No 3.
+Lawrence Neuman, W. (2011) “Social Research Methods: Qualitative and quantitative approaches.” Pearson.
